@@ -1,0 +1,227 @@
+:root {
+    --cor-branca: #ffffff;
+    --cor-preta: #000000;
+
+    --cor-primaria: #5d04d9;
+    --primaria-hover: #03318c;
+    --cor-secundaria: #c004d9;
+    --secundaria-hover: #9303a6;
+    --cor-sombra: #909090ba;
+    /* --cor-destaque: #cc0000; */
+}
+
+.error {
+    font-size: 1.5rem;
+    color: var(--cor-sombra);
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    margin: 0 10px 100vh 10px;
+}
+
+/* Mobile First */
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: var(--cor-primaria);
+    box-shadow: 0px 5px 1px var(--cor-sombra);
+}
+
+header div {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.3rem;
+}
+header button {
+    font-size: 1.5rem;
+}
+
+.texto_destaque {
+    color: var(--cor-secundaria); 
+}
+
+main h1 {
+    color: var(--cor-preta);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 40px 0px;
+}
+
+.adicionar_cards {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.adicionar_cards_conteudo {
+    margin: 0px 20px;
+    width: 400px;
+    height: 400px;
+    background-color: var(--cor-branca);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.721);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.adc_cards_container_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.adc_cards_inputs {
+    border: 3px solid var(--cor-primaria);
+    border-radius: 30px;
+    color: var(--primaria-hover);
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.inputs_gerenciar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inputs_gerenciar input {
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    border: 3px solid var(--cor-primaria);
+    cursor: pointer;
+    font-weight: 600;
+}
+.input_adc {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    transition: 0.5s;
+}
+.input_adc:hover {
+    background-color: var(--primaria-hover);
+    border: 3px solid var(--primaria-hover);
+}
+.input_limpar {
+    background-color: var(--cor-branca);
+    color: var(--cor-primaria);
+    transition: 0.3s;
+}
+
+.close-btn {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 10px;
+    right: 10px;
+    color: var(--cor-primaria);
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.container_desktop {
+    display: none;
+}
+
+.container_cards {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 10px 50px 10px;
+    display: flex;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 0 0 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    width: 190px;
+    height: 258px;
+    border-radius: 10px;
+    border: 3px solid var(--cor-preta);
+    box-shadow: -5px 6px 3.3px var(--cor-sombra);
+}
+
+.card_img {
+    background-position: center center;
+    background-size: cover;
+    width: 176px;
+    height: 174px;
+    border-radius: 10px;
+    border: 3px solid var(--cor-preta);
+}
+
+.card_titulo {
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.card_preco {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.card_alinhar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apagar_card {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div img {
+    width: 130px;
+}
+
+footer h1 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+footer p.weight {
+    margin-top: 15px;
+}

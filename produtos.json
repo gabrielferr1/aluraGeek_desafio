@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Nintendo Game Cube",
+      "preco": "70,00",
+      "imagem": "https://i.ebayimg.com/00/s/MTM3NVgxNjAw/z/8OIAAOSwRB5ez2ot/$_58.JPG"
+    },
+    {
+      "id": 2,
+      "titulo": "Boneco Homem Aranha",
+      "preco": "50,00",
+      "imagem": "https://i.pinimg.com/736x/33/b3/04/33b30491c37b2241fd1c6d98dc94f9ca.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Caneca Mário",
+      "preco": "100,00",
+      "imagem": "https://img.elo7.com.br/product/zoom/2B9D2F7/caneca-geek-stuff-58-encanador.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Game Boy",
+      "preco": "222,99",
+      "imagem": "https://d1eh9yux7w8iql.cloudfront.net/product_images/129756_5a223bb9-37ca-49d6-86ac-82f25e444776.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Carta Pokemon",
+      "preco": "800,00",
+      "imagem": "https://easycdn.es/1/imagenes/otros_336769.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Conjunto Harry",
+      "preco": "189,99",
+      "imagem": "https://4.bp.blogspot.com/-Lu5q5oZdZJU/WXe1Iqp-AoI/AAAAAAAALAY/9iO9u5lBs3UQpDyQFa_z4s-M938EW3Z8QCLcBGAs/s1600/potter.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Pop Bernadette",
+      "preco": "82,50",
+      "imagem": "http://3.bp.blogspot.com/-dDIDcVXpeno/Uf2vhnfvJOI/AAAAAAAADmA/lCy74yXyacA/s1600/fuunkopop.jpg"
+    }
+  ]
+}
